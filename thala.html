@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self code development</title>
+    <style>
+      .image-header img{
+        position: absolute;
+        left: 0;
+      }
+      .header{
+        position: relative;
+      }
+
+      .rimage{
+        z-index: -1;
+      }
+   
+      .image-header:hover .rimage{
+        z-index: 0;
+        cursor: url('./img/cricket-ball.png'), pointer;
+      }
+
+    </style>
+</head>
+<body>
+
+ <div class="header">
+
+    <div class="image-header">
+
+        <img src="./img/dhoni.jpg" alt="">
+        <img src="./img/raina.jpeg" alt="" class="rimage">
+
+    </div>
+
+ </div>
+      
+</body>
+</html>

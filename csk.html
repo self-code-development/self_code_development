@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self code development</title>
+    <style>
+        button {
+            padding: 10px;
+            background-color: yellow;
+            border-radius: 10px;
+            border: none;
+            margin: 10px 170px;
+        }
+        .header{
+            background-image: url(./img/c.gif);
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+
+   
+   <div id="header">
+    <h1>csk whistle podu</h1>
+    <div>
+        <img src="./img/csk.png" alt="">
+    </div>
+   </div>
+   <button onclick="Opener()">whistlepodu</button>
+
+
+ <script>
+  function Opener(){
+    var header = document.getElementById('header')
+    header.classList.toggle('header')
+  }
+ </script>
+
+</body>
+
+</html>
